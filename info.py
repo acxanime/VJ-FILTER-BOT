@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/9y6.jpg')).split()
 
 
 # Admins & Users
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/vj_bot_disscussion')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vj_botz')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/kingvj01')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/AniReal_Chat_Group_Asia')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+l1Hb7Vk1hslhOTBl')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'AniReal_Chat_Group_Asia') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AniReal_Support')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
